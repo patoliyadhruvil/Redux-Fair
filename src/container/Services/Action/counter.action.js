@@ -1,0 +1,17 @@
+import { DECREMENT, INCREMENT } from "../Services/const";
+
+export const increment = () =>{
+
+    return{
+        type : INCREMENT
+    }
+
+};
+
+export const decrement = () =>{
+
+    return{
+        type : DECREMENT
+    }
+
+}

@@ -1,0 +1,194 @@
+.custom-navbar {
+  background: linear-gradient(to right, #394240, #292c33);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+}
+
+.brand-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #61dafb;
+  background-color: rgba(97, 218, 251, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+
+.create {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.form-container:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 12px;
+  transition: border-color 0.3s ease;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 14px 25px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.search-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-button {
+  flex: 0 0 auto;
+  padding: 8px 45px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #ff8400;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 60px;
+}
+
+.search-button:hover {
+  background-color: #00eaff;
+}
+
+.custom-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form .form-label {
+  font-weight: bold;
+}
+
+.custom-form .form-control {
+  margin-bottom: 15px;
+}
+
+.custom-form button[type="submit"] {
+  margin-top: 15px;
+}
+
+.custom-form button[type="submit"]:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.price-label {
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
